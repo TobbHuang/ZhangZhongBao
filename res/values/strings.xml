@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌中宝</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register1">Register1Activity</string>
+    <string name="title_activity_register2">Register2Activity</string>
+    <string name="title_activity_introduction">IntroductionActivity</string>
+    <string name="title_activity_communication">CommunicationActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_borrow">BorrowActivity</string>
+    <string name="title_activity_login_info">LoginInfoActivity</string>
+    <string name="title_activity_repay">RepayActivity</string>
+    <string name="title_activity_repay_juti">RepayJutiActivity</string>
+    <string name="title_activity_borrow_situation">BorrowSituationActivity</string>
+    <string name="title_activity_select1">Select1Activity</string>
+    <string name="title_activity_select2">Select2Activity</string>
+    <string name="title_activity_credit_info">CreditInfoActivity</string>
+    <string name="title_activity_first_login">FirstLoginActivity</string>
+    <string name="title_activity_first_login2">FirstLogin2Activity</string>
+
+</resources>

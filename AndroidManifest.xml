@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pekinguniverdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity android:name=".FSExplorer" >
+        </activity>
+        <activity
+            android:name=".Register1Activity"
+            android:label="@string/title_activity_register1" >
+        </activity>
+        <activity
+            android:name=".Register2Activity"
+            android:label="@string/title_activity_register2" >
+        </activity>
+        <activity
+            android:name=".IntroductionActivity"
+            android:label="@string/title_activity_introduction" >
+        </activity>
+        <activity
+            android:name=".CommunicationActivity"
+            android:label="@string/title_activity_communication" >
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".BorrowActivity"
+            android:label="@string/title_activity_borrow" >
+        </activity>
+        <activity
+            android:name=".LoginInfoActivity"
+            android:label="@string/title_activity_login_info" >
+        </activity>
+        <activity
+            android:name=".RepayActivity"
+            android:label="@string/title_activity_repay" >
+        </activity>
+        <activity
+            android:name=".RepayJutiActivity"
+            android:label="@string/title_activity_repay_juti" >
+        </activity>
+        <activity
+            android:name=".BorrowSituationActivity"
+            android:label="@string/title_activity_borrow_situation" >
+        </activity>
+        <activity
+            android:name=".Select1Activity"
+            android:label="@string/title_activity_select1" >
+        </activity>
+        <activity
+            android:name=".Select2Activity"
+            android:label="@string/title_activity_select2" >
+        </activity>
+        <activity
+            android:name=".CreditInfoActivity"
+            android:label="@string/title_activity_credit_info" >
+        </activity>
+        <activity
+            android:name=".FirstLoginActivity"
+            android:label="@string/title_activity_first_login" >
+        </activity>
+        <activity
+            android:name=".FirstLogin2Activity"
+            android:label="@string/title_activity_first_login2" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+</manifest>
